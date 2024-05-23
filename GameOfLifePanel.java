@@ -11,7 +11,7 @@ import javax.swing.JPanel;
 
 public class GameOfLifePanel extends JPanel {
 
-	private int width = 192, height = 108;
+	private int width = 480, height = 270;
 	private boolean[][] board = new boolean[width][height];
 	private double screenWidth, screenHeight, cellWidth;
 	private ArrayList<Point> toSwitch = new ArrayList<Point>();
